@@ -11,6 +11,6 @@ Objective 2 - Explore the Orders Table
 Analyzed the order_details table to establish the date range, counted total orders and items sold, identified orders with the highest item counts, and flagged orders exceeding 12 items.
 
 Objective 3 - Analyze Customer Behavior
-Joined the menu_items and order_details tables to uncover the least and most ordered items by category, identified the top 5 highest-spend orders, and drilled into the specific items purchased within the highest-spend order.Tools & Skills
+Joined the menu_items and order_details tables to uncover the least and most ordered items by category, identified the top 5 highest-spend orders, and drilled into the specific items purchased within the highest-spend order.
 
-MySQL, SQL Joins, Aggregations, Filtering, Subqueries, Data Analysis
+Tools & Skills: MySQL, SQL Joins, Aggregations, Filtering, Subqueries, Data Analysis
