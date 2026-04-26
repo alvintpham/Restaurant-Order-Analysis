@@ -1,16 +1,38 @@
-# Restaurant Order Analysis
+# 🍽️ Restaurant Order Analysis
 
-Performed an end-to-end data analysis using MySQL for a fictitious international restaurant, Taste of the World Café, analyzing 12,000+ orders to evaluate the performance of a newly launched menu.
+## Overview
+This project analyzes a quarter's worth of orders from a fictitious 
+international cuisine restaurant using MySQL. The goal is to explore 
+the menu, understand order patterns, and analyze customer behavior 
+to identify top-spending orders and popular categories.
 
-**Objectives**
+## Objectives
+1. **Explore the Items Table** — Understand the menu by finding the 
+   number of items, least and most expensive dishes, and average 
+   price by category
+2. **Explore the Orders Table** — Analyze order patterns including 
+   date range, order volume, and orders with the most items
+3. **Analyze Customer Behavior** — Combine both tables to identify 
+   least and most ordered items, top spending orders, and insights 
+   on the highest spend categories
 
-Objective 1 - Explore the Menu Items Table
-Queried the menu_items table to find the total number of items on the menu, identified the least and most expensive dishes overall and within the Italian category, and calculated the average price per cuisine category.
+## Key Findings
+- The menu has 32 items across 4 categories: American, Asian, 
+  Mexican, and Italian
+- Italian dishes have the highest average price at $16.75, 
+  while American dishes average $10.07
+- 5,370 orders were placed between January and March 2023
+- The Hamburger was the most ordered item while Chicken Tacos 
+  was the least ordered
+- Italian items dominated the highest spending orders, suggesting 
+  it is the most popular category among high spend customers
 
-Objective 2 - Explore the Orders Table
-Analyzed the order_details table to establish the date range, counted total orders and items sold, identified orders with the highest item counts, and flagged orders exceeding 12 items.
+## Tools & Libraries
+- MySQL
+- MySQL Workbench
 
-Objective 3 - Analyze Customer Behavior
-Joined the menu_items and order_details tables to uncover the least and most ordered items by category, identified the top 5 highest-spend orders, and drilled into the specific items purchased within the highest-spend order.
-
-Tools & Skills: MySQL, SQL Joins, Aggregations, Filtering, Subqueries, Data Analysis
+## Data Source
+The dataset was sourced from 
+[Maven Analytics](https://maven-datasets.s3.amazonaws.com/Airbnb/Airbnb+Data.zip).
+Download and import the provided SQL file to recreate the database 
+before running the queries.
