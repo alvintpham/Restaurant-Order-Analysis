@@ -46,7 +46,6 @@ and customer spending behavior across 12,266 records and 8 fields.
 - MySQL Workbench
 
 ## Data Source
-The dataset was sourced from 
-[Maven Analytics](https://maven-datasets.s3.amazonaws.com/Airbnb/Airbnb+Data.zip).
-Download and import the provided SQL file to recreate the database 
-before running the queries.
+Dataset sourced from Maven Analytics. Download and import the 
+provided SQL file to recreate the database before running the queries.
+[Maven Analytics](https://maven-datasets.s3.amazonaws.com/Restaurant+Orders/Restaurant+Orders+MySQL.zip)
