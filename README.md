@@ -54,4 +54,4 @@ categories.
 ## Data Source
 Dataset sourced from Maven Analytics. Download and import the 
 provided SQL file to recreate the database before running the queries.
-[Maven Analytics](https://maven-datasets.s3.amazonaws.com/Restaurant+Orders/Restaurant+Orders+MySQL
+[Restaurant Orders](https://maven-datasets.s3.amazonaws.com/Restaurant+Orders/Restaurant+Orders+MySQL
