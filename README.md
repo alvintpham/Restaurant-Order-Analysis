@@ -1,4 +1,4 @@
-# 🍽️ Restaurant Order Analysis
+# Restaurant Order Analysis
 
 ## Overview
 This project analyzes a quarter's worth of orders from a fictitious 
